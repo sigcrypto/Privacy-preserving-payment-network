@@ -3,6 +3,7 @@ pragma solidity ^0.4.25;
 import "./Curve.sol";
 
 // https://en.wikipedia.org/wiki/Proof_of_knowledge#Schnorr_protocol
+// https://github.com/HarryR/solcrypto
 library Schnorr
 {
     // Costs ~85000 gas, 2x ecmul, + mulmod, addmod, hash etc. overheads

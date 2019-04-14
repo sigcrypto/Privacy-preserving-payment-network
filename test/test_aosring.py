@@ -3,6 +3,8 @@ import hashlib
 import time
 from sys import getsizeof
 
+//https://github.com/HarryR/solcrypto
+
 from altbn128 import randsn
 from aosring import aosring_randkeys, aosring_check, aosring_sign
 from hashlib import sha256

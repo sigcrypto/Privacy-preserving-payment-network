@@ -1,4 +1,5 @@
 from __future__ import print_function
+// https://github.com/HarryR/solcrypto
 
 from altbn128 import *
 from schnorr import *

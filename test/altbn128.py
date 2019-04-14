@@ -1,6 +1,7 @@
 import hashlib
 from random import randint
 from past.builtins import long
+//https://github.com/HarryR/solcrypto
 
 from py_ecc import bn128
 from py_ecc.bn128 import add, multiply, curve_order, G1
